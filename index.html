@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giulia Mazza | UX/UI & Conversion Designer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(135deg, #c084fc 0%, #60a5fa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass-card {
+            background: rgba(17, 24, 39, 0.75);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #9333ea 0%, #2563eb 100%);
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px -5px rgba(147, 51, 234, 0.5);
+        }
+    </style>
+</head>
+<body class="bg-gray-950 text-gray-100 antialiased selection:bg-purple-500 selection:text-white">
+
+    <!-- NAVIGATION -->
+    <nav class="fixed top-0 w-full z-50 bg-gray-950/80 backdrop-blur-md border-b border-gray-800/80">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-tight text-white">GM<span class="text-purple-500">.</span></a>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-300">
+                <a href="#about" class="hover:text-purple-400 transition">About</a>
+                <a href="#cases" class="hover:text-purple-400 transition">Case Studies (Before/After)</a>
+                <a href="#services" class="hover:text-purple-400 transition">Services</a>
+            </div>
+            <a href="https://www.linkedin.com/in/giulia-mazza-21203a236/?skipRedirect=true" target="_blank" rel="noopener noreferrer" class="btn-primary px-5 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider text-white flex items-center gap-2">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                Connect on LinkedIn
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="about" class="pt-36 pb-20 px-6 max-w-7xl mx-auto relative">
+        <div class="max-w-3xl space-y-6">
+            <div class="inline-flex items-center space-x-2 bg-purple-950/60 border border-purple-500/30 px-4 py-2 rounded-full text-xs font-semibold text-purple-300">
+                <span>✨ UX/UI & Conversion Rate Specialist</span>
+            </div>
+            <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-tight">
+                Hi, I'm <span class="gradient-text">Giulia Mazza</span>.<br>
+                I turn leaky landing pages into high-converting products.
+            </h1>
+            <p class="text-lg text-gray-400 font-normal leading-relaxed">
+                I help SaaS startups and digital brands eliminate cognitive friction, redesign hero sections, and optimize user flows to maximize signups and revenue.
+            </p>
+            <div class="pt-4 flex flex-wrap gap-4">
+                <a href="#cases" class="btn-primary px-7 py-3.5 rounded-xl text-sm font-bold text-white">View Before & After Teardowns</a>
+                <a href="https://www.linkedin.com/in/giulia-mazza-21203a236/?skipRedirect=true" target="_blank" class="bg-gray-900 border border-gray-800 hover:border-gray-700 px-7 py-3.5 rounded-xl text-sm font-bold text-gray-300 hover:text-white transition">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CASE STUDIES SECTION (BEFORE VS AFTER) -->
+    <section id="cases" class="py-20 px-6 max-w-7xl mx-auto border-t border-gray-900">
+        <div class="space-y-4 mb-16">
+            <h2 class="text-xs font-bold uppercase tracking-widest text-purple-400">Featured Work</h2>
+            <h3 class="text-3xl font-extrabold text-white">UX/UI Teardowns & Redesigns</h3>
+            <p class="text-gray-400 text-sm max-w-xl">Real-world examples showing how Conversion Architecture increases signups and eliminates drop-off points.</p>
+        </div>
+
+        <div class="space-y-20">
+
+            <!-- CASE 1: FlowSync AI -->
+            <div class="glass-card rounded-2xl p-6 sm:p-10 space-y-8">
+                <div class="flex flex-col lg:flex-row justify-between lg:items-center gap-4 border-b border-gray-800 pb-6">
+                    <div>
+                        <span class="text-xs font-bold text-blue-400 uppercase tracking-wider">Case Study #1 • B2B Workflow SaaS</span>
+                        <h4 class="text-2xl font-bold text-white mt-1">FlowSync AI Landing Page Optimization</h4>
+                    </div>
+                    <div class="bg-emerald-950/80 border border-emerald-800 text-emerald-400 px-4 py-2 rounded-xl text-xs font-bold w-fit">
+                        📈 Result: +3.2x Signup Conversion Rate
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <!-- BEFORE -->
+                    <div class="bg-red-950/20 border border-red-900/40 p-6 rounded-xl space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-black text-red-400 uppercase tracking-widest bg-red-950 px-3 py-1 rounded border border-red-800">❌ BEFORE (High Friction)</span>
+                        </div>
+                        <ul class="text-xs text-gray-300 space-y-2 list-disc list-inside">
+                            <li><strong>Jargon Headline:</strong> "Empowering Enterprise Synergy Through Next-Gen Orchestration."</li>
+                            <li><strong>Form Friction:</strong> Required 6 mandatory input fields for a simple demo.</li>
+                            <li><strong>Low Contrast CTA:</strong> Dark gray button hidden in dark background.</li>
+                        </ul>
+                    </div>
+
+                    <!-- AFTER -->
+                    <div class="bg-emerald-950/20 border border-emerald-900/40 p-6 rounded-xl space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-black text-emerald-400 uppercase tracking-widest bg-emerald-950 px-3 py-1 rounded border border-emerald-800">✅ AFTER (Redesigned UI)</span>
+                        </div>
+                        <ul class="text-xs text-gray-300 space-y-2 list-disc list-inside">
+                            <li><strong>Outcome Headline:</strong> "Automate Cross-App Workflows in 3 Clicks."</li>
+                            <li><strong>1-Click Trial:</strong> Single email input field with instant onboarding.</li>
+                            <li><strong>High Contrast CTA:</strong> Gradient pop button with "No credit card required" proof.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CASE 2: MetricsPulse.io -->
+            <div class="glass-card rounded-2xl p-6 sm:p-10 space-y-8">
+                <div class="flex flex-col lg:flex-row justify-between lg:items-center gap-4 border-b border-gray-800 pb-6">
+                    <div>
+                        <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Case Study #2 • Analytics Platform</span>
+                        <h4 class="text-2xl font-bold text-white mt-1">MetricsPulse Revenue Analytics Hero Section</h4>
+                    </div>
+                    <div class="bg-emerald-950/80 border border-emerald-800 text-emerald-400 px-4 py-2 rounded-xl text-xs font-bold w-fit">
+                        📉 Result: 78% Drop in Bounce Rate
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <!-- BEFORE -->
+                    <div class="bg-red-950/20 border border-red-900/40 p-6 rounded-xl space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-black text-red-400 uppercase tracking-widest bg-red-950 px-3 py-1 rounded border border-red-800">❌ BEFORE (Leaky UX)</span>
+                        </div>
+                        <ul class="text-xs text-gray-300 space-y-2 list-disc list-inside">
+                            <li><strong>Corporate Speak:</strong> "Real-Time Telemetry & Multi-Dimensional Data Infrastructure."</li>
+                            <li><strong>No Product Preview:</strong> Decorative 3D schema diagram instead of real UI.</li>
+                            <li><strong>High Attrition:</strong> "Contact Sales" wall blocking cold visitors.</li>
+                        </ul>
+                    </div>
+
+                    <!-- AFTER -->
+                    <div class="bg-emerald-950/20 border border-emerald-900/40 p-6 rounded-xl space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-black text-emerald-400 uppercase tracking-widest bg-emerald-950 px-3 py-1 rounded border border-emerald-800">✅ AFTER (Conversion-Focused)</span>
+                        </div>
+                        <ul class="text-xs text-gray-300 space-y-2 list-disc list-inside">
+                            <li><strong>Clear Messaging:</strong> "Track SaaS MRR & Churn in Real Time. Zero Setup."</li>
+                            <li><strong>Visual Proof:</strong> High-res dashboard preview showing real revenue metrics.</li>
+                            <li><strong>Instant Trust:</strong> "Connects with Stripe in 60 seconds" micro-copy.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SERVICES OFFERING -->
+    <section id="services" class="py-20 px-6 max-w-7xl mx-auto border-t border-gray-900">
+        <div class="space-y-4 mb-16">
+            <h2 class="text-xs font-bold uppercase tracking-widest text-purple-400">Work With Me</h2>
+            <h3 class="text-3xl font-extrabold text-white">Productized UX/UI Offers</h3>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- SERVICE 1 -->
+            <div class="glass-card rounded-2xl p-8 space-y-6 flex flex-col justify-between">
+                <div class="space-y-4">
+                    <span class="text-xs font-bold uppercase tracking-wider text-purple-400 bg-purple-950 px-3 py-1 rounded-full border border-purple-800">Rapid Insights</span>
+                    <h4 class="text-2xl font-bold text-white">The 24-Hour MVP UX/UI Audit Report</h4>
+                    <p class="text-sm text-gray-400 leading-relaxed">A custom 4-page PDF teardown analyzing your landing page or MVP app. Identifies drop-off points and delivers a 3-step immediate fix plan.</p>
+                </div>
+                <div class="pt-4 border-t border-gray-800 flex items-center justify-between">
+                    <span class="text-xl font-bold text-white">€100</span>
+                    <a href="https://www.linkedin.com/in/giulia-mazza-21203a236/?skipRedirect=true" target="_blank" class="btn-primary px-5 py-2.5 rounded-xl text-xs font-bold text-white">Book Audit</a>
+                </div>
+            </div>
+
+            <!-- SERVICE 2 -->
+            <div class="glass-card rounded-2xl p-8 space-y-6 flex flex-col justify-between border-purple-500/30">
+                <div class="space-y-4">
+                    <span class="text-xs font-bold uppercase tracking-wider text-blue-400 bg-blue-950 px-3 py-1 rounded-full border border-blue-800">Full Execution</span>
+                    <h4 class="text-2xl font-bold text-white">The One-Week MVP Launch Kit</h4>
+                    <p class="text-sm text-gray-400 leading-relaxed">Complete end-to-end redesign of your landing page or core application workflow in 7 days. High-converting UI built to turn visitors into users.</p>
+                </div>
+                <div class="pt-4 border-t border-gray-800 flex items-center justify-between">
+                    <span class="text-xl font-bold text-white">Custom Quote</span>
+                    <a href="https://www.linkedin.com/in/giulia-mazza-21203a236/?skipRedirect=true" target="_blank" class="btn-primary px-5 py-2.5 rounded-xl text-xs font-bold text-white">Inquire Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-12 border-t border-gray-900 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-500">
+            <p>© 2026 Giulia Mazza. All rights reserved.</p>
+            <div class="flex items-center space-x-6">
+                <a href="https://www.linkedin.com/in/giulia-mazza-21203a236/?skipRedirect=true" target="_blank" class="hover:text-purple-400 transition">LinkedIn Profile</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
